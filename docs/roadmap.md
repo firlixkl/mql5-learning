@@ -1,7 +1,7 @@
 # 🗓️ Roadmap de Aprendizaje en MQL5
 
 Este documento resume el plan de aprendizaje dividido en 4 semanas, con teoría, práctica y entregables.  
-Se presenta en dos formatos: lista detallada y calendario visual (Mermaid Gantt).
+Se presenta en dos formatos: **lista detallada** y **calendario visual (Gantt)**.
 
 ---
 
@@ -53,20 +53,37 @@ Se presenta en dos formatos: lista detallada y calendario visual (Mermaid Gantt)
 
 ## 📊 Roadmap visual (Gantt)
 
+> **Nota:** Este diagrama usa colores de **alto contraste** por semana y un marcador de “hoy”.
+> Si no se ve correctamente en tu tema de GitHub, prueba a cambiar a tema claro/oscuro del navegador.
+
 ```mermaid
 gantt
     title Roadmap de Aprendizaje MQL5
     dateFormat  YYYY-MM-DD
     axisFormat  %d-%b
+    todayMarker stroke:#d62728,stroke-width:2px
 
+    %% Bloques por semana (fechas orientativas)
     section Semana 1
-    Fundamentos                :done,    s1, 2025-09-15, 7d
+    Fundamentos                :s1, 2025-09-15, 7d
 
     section Semana 2
-    Primer Expert Advisor       :active,  s2, 2025-09-22, 7d
+    Primer Expert Advisor      :s2, 2025-09-22, 7d
 
     section Semana 3
-    Estrategias y optimización  :         s3, 2025-09-29, 7d
+    Estrategias y optimización :s3, 2025-09-29, 7d
 
     section Semana 4
-    Proyecto final              :         s4, 2025-10-06, 7d
+    Proyecto final             :s4, 2025-10-06, 7d
+
+    %% Estilos de alto contraste por semana
+    classDef w1 fill:#1f77b4,stroke:#000,color:#fff   %% Azul
+    classDef w2 fill:#2ca02c,stroke:#000,color:#fff   %% Verde
+    classDef w3 fill:#ff7f0e,stroke:#000,color:#111   %% Naranja (texto oscuro para más contraste)
+    classDef w4 fill:#9467bd,stroke:#000,color:#fff   %% Morado
+
+    %% Asignación de estilos a tareas
+    class s1 w1
+    class s2 w2
+    class s3 w3
+    class s4 w4
