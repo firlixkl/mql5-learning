@@ -24,7 +24,7 @@ El plan está dividido en **4 semanas**, cada una con teoría y práctica:
 - **Semana 3:** Estrategias con indicadores y optimización → RSI, EMA, backtesting y optimización.  
 - **Semana 4:** Proyecto final → EA avanzado (MACD + RSI + gestión de riesgo con ATR), dashboard e informes de backtest.
 
-📌 Puedes consultar el roadmap completo aquí: [docs/roadmap.md](docs/roadmap.md)
+📌 Puedes consultar el roadmap completo aquí: [docs/roadmap.md](docs/roadmap.md) //Aún por hacer
 
 ---
 
@@ -32,7 +32,7 @@ El plan está dividido en **4 semanas**, cada una con teoría y práctica:
 Organizo las tareas con un **Kanban en GitHub Projects**, usando las columnas *Ideas*, *To Do*, *In Progress* y *Done*.  
 Cada tarea tiene etiquetas de **Semana (1–4)** y tipo (**Teoría, Práctica, Entrega**).
 
-👉 [Acceder al tablero Kanban](../../projects/2)
+👉 [Acceder al tablero Kanban](https://github.com/users/firlixkl/projects/2)
 
 ---
 
