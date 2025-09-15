@@ -48,7 +48,7 @@ Cada tarea tiene etiquetas de **Semana (1–4)** y tipo (**Teoría, Práctica, E
  ┃ ┣ capturas/
  ┃ ┗ roadmap.md
  ┗ README.md
-
+```
 
 
 # Roadmap de Aprendizaje en MQL5
