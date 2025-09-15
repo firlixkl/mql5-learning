@@ -55,6 +55,7 @@ Se presenta en dos formatos: **lista detallada** y **calendario visual (Gantt)**
 
 
 ```mermaid
+%%{init: {'theme':'forest'}}%%
 gantt
     title Roadmap de Aprendizaje MQL5
     dateFormat  YYYY-MM-DD
