@@ -50,7 +50,7 @@ Se presenta en dos formatos: **lista detallada** y **calendario visual (Gantt)**
 - [ ] Documentación de código estilo producción
 
 ---
-```markdown
+
 ## 📊 Roadmap visual (Gantt)
 
 ```mermaid
