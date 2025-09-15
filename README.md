@@ -32,7 +32,7 @@ El plan está dividido en **4 semanas**, cada una con teoría y práctica:
 Organizo las tareas con un **Kanban en GitHub Projects**, usando las columnas *Ideas*, *To Do*, *In Progress* y *Done*.  
 Cada tarea tiene etiquetas de **Semana (1–4)** y tipo (**Teoría, Práctica, Entrega**).
 
-👉 [Acceder al tablero Kanban](../../projects)
+👉 [Acceder al tablero Kanban](../../projects/2)
 
 ---
 
