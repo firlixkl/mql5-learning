@@ -51,16 +51,15 @@ Se presenta en dos formatos: **lista detallada** y **calendario visual (Gantt)**
 
 ---
 
-
 ## 📊 Roadmap visual (Gantt)
 
 ```mermaid
-%%{init: {'theme':'neutral'}}%%
+%%{init: {'theme':'default'}}%%
 gantt
     title Roadmap de Aprendizaje MQL5
     dateFormat  YYYY-MM-DD
     axisFormat  %d-%b
-    todayMarker stroke:#d62728,stroke-width:2px
+    todayMarker stroke:#2ca02c,stroke-width:2px
 
     section Semana 1
     Fundamentos                :done,    s1, 2025-09-15, 7d
