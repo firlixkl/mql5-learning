@@ -3,6 +3,11 @@
 Este repositorio documenta mi progreso en el aprendizaje de **MQL5 y MetaTrader 5** con un plan de 4 semanas, combinando teoría y práctica.  
 El objetivo es obtener una base sólida en programación de Expert Advisors (EAs), indicadores y scripts, y tener varios proyectos listos para mostrar en entrevistas o trabajos.
 
+
+---
+## Tablero de progreso
+Puedes seguir el avance en el tablero Kanban aquí 👉 [Roadmap MQL5 Project](https://github.com/firlixkl/mql5-learning/projects)
+
 ---
 
 ## Progreso por semanas
