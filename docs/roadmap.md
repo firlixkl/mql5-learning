@@ -51,6 +51,7 @@ Se presenta en dos formatos: **lista detallada** y **calendario visual (Gantt)**
 
 ---
 
+
 ## 📊 Roadmap visual (Gantt)
 
 ```mermaid
