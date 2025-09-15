@@ -51,6 +51,20 @@ Cada tarea tiene etiquetas de **Semana (1–4)** y tipo (**Teoría, Práctica, E
 ```
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Roadmap de Aprendizaje en MQL5
 
 Este repositorio documenta mi progreso en el aprendizaje de **MQL5 y MetaTrader 5** con un plan de 4 semanas, combinando teoría y práctica.  
