@@ -55,7 +55,7 @@ Se presenta en dos formatos: **lista detallada** y **calendario visual (Gantt)**
 ## 📊 Roadmap visual (Gantt)
 
 ```mermaid
-%%{init: {'theme':'default'}}%%
+%%{init: {'theme':'neutral'}}%%
 gantt
     title Roadmap de Aprendizaje MQL5
     dateFormat  YYYY-MM-DD
@@ -63,13 +63,13 @@ gantt
     todayMarker stroke:#d62728,stroke-width:2px
 
     section Semana 1
-    Fundamentos                :active, s1, 2025-09-15, 7d
+    Fundamentos                :done,    s1, 2025-09-15, 7d
 
     section Semana 2
-    Primer Expert Advisor      :crit,   s2, 2025-09-22, 7d
+    Primer Expert Advisor      :active,  s2, 2025-09-22, 7d
 
     section Semana 3
-    Estrategias y optimización :done,   s3, 2025-09-29, 7d
+    Estrategias y optimización :crit,    s3, 2025-09-29, 7d
 
     section Semana 4
     Proyecto final             :        s4, 2025-10-06, 7d
