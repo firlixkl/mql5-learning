@@ -24,7 +24,7 @@ El plan está dividido en **4 semanas**, cada una con teoría y práctica:
 - **Semana 3:** Estrategias con indicadores y optimización → RSI, EMA, backtesting y optimización.  
 - **Semana 4:** Proyecto final → EA avanzado (MACD + RSI + gestión de riesgo con ATR), dashboard e informes de backtest.
 
-📌 Puedes consultar el roadmap completo aquí: [docs/roadmap.md](docs/roadmap.md) //Aún por hacer
+📌 Puedes consultar el roadmap completo aquí: [docs/roadmap.md](docs/roadmap.md) 
 
 ---
 
