@@ -1,4 +1,4 @@
-# 🗺️ Roadmap Profesional de Aprendizaje en MQL5 (Organizado por Niveles)
+#  Roadmap Profesional de Aprendizaje en MQL5 (Organizado por Niveles)
 
 Este documento presenta un **plan de aprendizaje estructurado desde el
 Nivel 0 hasta el Nivel 4**, alineado con la organización del
@@ -11,7 +11,7 @@ demostrable** de habilidades en MQL5.
 
 ------------------------------------------------------------------------
 
-# 🎯 Resumen general por niveles
+#  Resumen general por niveles
 
 -   **Nivel 0 -- Preparación del entorno:** Instalación de MetaTrader 5,
     MetaEditor y configuración inicial.
@@ -26,7 +26,7 @@ demostrable** de habilidades en MQL5.
 
 ------------------------------------------------------------------------
 
-# 📘 Detalle del Roadmap por Niveles
+#  Detalle del Roadmap por Niveles
 
 ------------------------------------------------------------------------
 
@@ -152,7 +152,7 @@ producción.
 
 ------------------------------------------------------------------------
 
-# 📦 Entregables globales
+#  Entregables globales
 
 Todos los niveles incluyen: - Código bien estructurado\
 - Capturas del funcionamiento (`/docs/capturas`)\
@@ -161,14 +161,14 @@ Todos los niveles incluyen: - Código bien estructurado\
 
 ------------------------------------------------------------------------
 
-# 🗂️ Calendario visual (Estilo Gantt)
+#  Calendario visual (Estilo Gantt)
 
 Disponible en GitHub Projects:\
 👉 https://github.com/users/firlixkl/projects/2
 
 ------------------------------------------------------------------------
 
-# 📑 Cierre
+#  Cierre
 
 Este roadmap sirve como guía profesional para demostrar competencias en
 trading algorítmico, buenas prácticas de desarrollo y capacidad de
