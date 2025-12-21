@@ -1,74 +1,175 @@
-# 🗓️ Roadmap de Aprendizaje en MQL5
+# 🗺️ Roadmap Profesional de Aprendizaje en MQL5 (Organizado por Niveles)
 
-Este documento resume el plan de aprendizaje dividido en 4 semanas, con teoría, práctica y entregables.  
-Se presenta en dos formatos: **lista detallada** y **calendario visual (Gantt)**.
+Este documento presenta un **plan de aprendizaje estructurado desde el
+Nivel 0 hasta el Nivel 4**, alineado con la organización del
+repositorio.\
+Incluye teoría, práctica guiada, creación de scripts, indicadores, EAs,
+optimización y documentación profesional.
 
----
+El roadmap está diseñado para construir un **portafolio sólido y
+demostrable** de habilidades en MQL5.
 
-## 📋 Roadmap por semanas
+------------------------------------------------------------------------
 
-### 🔹 Semana 1 (Fundamentos)
-- [ ] Instalar MetaTrader 5 + MetaEditor
-- [ ] Leer manual oficial (cap. 1–3)
-- [ ] Revisar libro de Korotky (secciones iniciales)
-- [ ] Script **Hello World** en gráfico
-- [ ] Script de alerta por precio (EURUSD > 1.10)
-- [ ] Indicador SMA con periodo configurable (14/50/200)
+# 🎯 Resumen general por niveles
 
----
+-   **Nivel 0 -- Preparación del entorno:** Instalación de MetaTrader 5,
+    MetaEditor y configuración inicial.
+-   **Nivel 1 -- Fundamentos:** Scripts, indicadores simples, conceptos
+    base del lenguaje.
+-   **Nivel 2 -- Primer Expert Advisor:** Órdenes, series temporales,
+    primer EA funcional.
+-   **Nivel 3 -- Estrategias y Optimización:** Indicadores avanzados,
+    backtesting, optimización.
+-   **Nivel 4 -- Proyecto Avanzado:** EA profesional con gestión de
+    riesgo, dashboard y documentación final.
 
-### 🔹 Semana 2 (Primer Expert Advisor)
-- [ ] Estudiar gestión de órdenes (OrderSend/OrderClose)
-- [ ] Estudiar series temporales y buffers (OHLC)
-- [ ] Curso BitDegree — primeros módulos
-- [ ] EA cruces de medias (20/50)
-- [ ] Añadir parámetros configurables (SMA/SL/TP)
-- [ ] Lotaje dinámico (1% riesgo por operación)
+------------------------------------------------------------------------
 
----
+# 📘 Detalle del Roadmap por Niveles
 
-### 🔹 Semana 3 (Estrategias y optimización)
-- [ ] Diseño de estrategias (Korotky)
-- [ ] Revisar ejemplos en MQL5.com (RSI, MACD, Bollinger)
-- [ ] EA basado en RSI (compra RSI<30 / venta RSI>70)
-- [ ] Añadir trailing stop al EA RSI
-- [ ] EA RSI + EMA (confirmación de tendencia)
-- [ ] Backtesting en Strategy Tester
-- [ ] Optimización de parámetros (RSI=14/20, EMA=50/100)
-- [ ] Exportar reporte de backtest a `/docs/backtests`
+------------------------------------------------------------------------
 
----
+## ⚪ Nivel 0 --- Preparación del entorno
 
-### 🔹 Semana 4 (Proyecto final)
-- [ ] Repasar manual completo (funciones avanzadas)
-- [ ] Completar curso BitDegree
-- [ ] Revisar Jobs y Market en MQL5.com
-- [ ] EA MACD + RSI + gestión de riesgo (máx. 2% por operación)
-- [ ] Stop Loss dinámico con ATR
-- [ ] Dashboard/indicador (RSI, MACD, tendencia EMA)
-- [ ] Script de simulación de portafolio (EURUSD y GBPUSD)
-- [ ] Documentación de código estilo producción
+Objetivo: Tener listo un entorno de trabajo totalmente funcional.
 
----
+### **Tareas**
 
-## 📊 Roadmap visual (Gantt)
+-   [ ] Instalar MetaTrader 5\
+-   [ ] Instalar MetaEditor\
+-   [ ] Entender estructura de carpetas (`MQL5/Indicators`, `Experts`,
+    `Scripts`)\
+-   [ ] Configurar gráficos y plantillas básicas\
+-   [ ] Conocer el probador de estrategias (Strategy Tester)\
+-   [ ] Crear y ejecutar el primer script vacío
 
+### **Entrega del nivel**
 
-```mermaid
-%%{init: {'theme':'forest'}}%%
-gantt
-    title Roadmap de Aprendizaje MQL5
-    dateFormat  YYYY-MM-DD
-    axisFormat  %d-%b
+-   Carpeta: `nivel0-entorno`\
+-   Scripts y capturas del entorno configurado.
 
-    section Semana 1
-    Fundamentos                :done,    s1, 2025-09-15, 7d
+------------------------------------------------------------------------
 
-    section Semana 2
-    Primer Expert Advisor       :active,  s2, 2025-09-22, 7d
+## 🔵 Nivel 1 --- Fundamentos de MQL5
 
-    section Semana 3
-    Estrategias y optimización  :         s3, 2025-09-29, 7d
+Objetivo: Aprender la estructura del lenguaje y crear los primeros
+programas funcionales.
 
-    section Semana 4
-    Proyecto final              :         s4, 2025-10-06, 7d
+### **Teoría**
+
+-   [ ] Definición de eventos (`OnStart`, `OnTick`, `OnCalculate`)\
+-   [ ] Tipos de programas (Script / Indicador / EA)\
+-   [ ] Series temporales (OHLC, buffers)\
+-   [ ] Capítulos 1--3 del manual oficial\
+-   [ ] Secciones introductorias del libro de Korotky
+
+### **Práctica**
+
+-   [ ] Script **Hello World**\
+-   [ ] Script de alerta por precio\
+-   [ ] Indicador SMA configurable (14 / 50 / 200)
+
+### **Entrega del nivel**
+
+-   Carpeta: `nivel1-fundamentos`\
+-   3 scripts + 1 indicador completamente funcional.
+
+------------------------------------------------------------------------
+
+## 🟣 Nivel 2 --- Primer Expert Advisor (EA)
+
+Objetivo: Crear el primer sistema de trading automatizado.
+
+### **Teoría**
+
+-   [ ] Uso de `CTrade`, `OrderSend`, `OrderClose`\
+-   [ ] Manejo de OHLC y buffers\
+-   [ ] Curso de BitDegree --- módulos iniciales
+
+### **Práctica**
+
+-   [ ] EA cruces de medias (20 / 50)\
+-   [ ] Parámetros configurables: SMA, SL, TP\
+-   [ ] Lotaje dinámico (1% por operación)
+
+### **Entrega del nivel**
+
+-   Carpeta: `nivel2-primer-ea`\
+-   EA funcional con parámetros y documentación interna.
+
+------------------------------------------------------------------------
+
+## 🟠 Nivel 3 --- Estrategias y Optimización
+
+Objetivo: Trabajar como un trader cuantitativo profesional.
+
+### **Teoría**
+
+-   [ ] Diseño de estrategias (Korotky)\
+-   [ ] Estudio de ejemplos oficiales: RSI, MACD, Bollinger\
+-   [ ] Conceptos de backtesting y optimización
+
+### **Práctica**
+
+-   [ ] EA RSI (RSI\<30 compra / RSI\>70 venta)\
+-   [ ] Añadir trailing stop\
+-   [ ] Estrategia RSI + EMA\
+-   [ ] Backtesting en Strategy Tester\
+-   [ ] Optimización de parámetros\
+-   [ ] Exportación de reportes a `/docs/reportes_backtest/`
+
+### **Entrega del nivel**
+
+-   Carpeta: `nivel3-estrategias`\
+-   EAs optimizados + reportes completos.
+
+------------------------------------------------------------------------
+
+## 🔴 Nivel 4 --- Proyecto Avanzado
+
+Objetivo: Construir un EA de nivel profesional con documentación de
+producción.
+
+### **Teoría**
+
+-   [ ] Revisión del manual MQL5 (avanzado)\
+-   [ ] Completar curso BitDegree\
+-   [ ] Estudio de Market & Jobs de MQL5.com
+
+### **Práctica**
+
+-   [ ] EA MACD + RSI + Gestión de riesgo (2% por operación)\
+-   [ ] Stop Loss dinámico con ATR\
+-   [ ] Dashboard técnico (RSI, MACD, EMA, tendencia)\
+-   [ ] Script de simulación de portafolio multi-par\
+-   [ ] Documentación profesional del EA
+
+### **Entrega del nivel**
+
+-   Carpeta: `nivel4-proyecto-avanzado`\
+-   EA final, dashboard y documentación estilo producción.
+
+------------------------------------------------------------------------
+
+# 📦 Entregables globales
+
+Todos los niveles incluyen: - Código bien estructurado\
+- Capturas del funcionamiento (`/docs/capturas`)\
+- Backtests y optimizaciones (`/docs/reportes_backtest`)\
+- README por carpeta explicando la lógica del código
+
+------------------------------------------------------------------------
+
+# 🗂️ Calendario visual (Estilo Gantt)
+
+Disponible en GitHub Projects:\
+👉 https://github.com/users/firlixkl/projects/2
+
+------------------------------------------------------------------------
+
+# 📑 Cierre
+
+Este roadmap sirve como guía profesional para demostrar competencias en
+trading algorítmico, buenas prácticas de desarrollo y capacidad de
+análisis cuantitativo con MQL5.
